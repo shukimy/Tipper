@@ -56,7 +56,7 @@ public class HomeActivity extends AppCompatActivity {
 
         builder.setPositiveButton(R.string.ok, new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int id) {
-                startActivity(new Intent(HomeActivity.this, TargetConfActivity.class));
+                startActivity(new Intent(HomeActivity.this, TargetActivity.class));
             }
         });
         AlertDialog dialog = builder.create();
