@@ -27,6 +27,13 @@
         <activity
             android:name=".HomeActivity"
             android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ConfigActivity"
+            android:label="@string/title_activity_target_config" />
+        <activity
+            android:name=".TargetConfActivity"
+            android:label="@string/title_activity_target_conf"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
