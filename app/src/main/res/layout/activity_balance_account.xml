@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.tipper.tipper.HomeActivity">
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/openConfig"
+        android:foregroundGravity="left" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="263dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="@string/account_balance_msg"
+            android:textSize="18dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_gravity="right"
+            android:layout_weight="0.08" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/account_balance_msg2"
+            android:textSize="18dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_gravity="right"
+            android:id="@+id/amount"
+            android:paddingRight="10dp" />
+
+        <TextView
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:text="@string/account_balance_msg3"
+            android:textSize="18dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_gravity="right"
+            android:id="@+id/time"
+            android:paddingRight="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/account_balance_msg4"
+            android:textSize="18dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_gravity="right"
+            android:layout_weight="0.17"
+            android:id="@+id/needToSave"
+            android:paddingRight="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/account_balance_msg5"
+            android:textSize="18dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_weight="0.32"
+            android:paddingRight="10dp" />
+
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="המשך"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:id="@+id/addAccount" />
+
+    </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

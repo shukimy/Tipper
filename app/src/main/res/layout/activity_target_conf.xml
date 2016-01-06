@@ -31,7 +31,8 @@
             android:layout_height="60dp"
             android:layout_margin="20dp"
             android:orientation="horizontal"
-            android:layoutDirection="rtl">
+            android:layoutDirection="rtl"
+            android:layout_gravity="center_vertical">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -39,7 +40,7 @@
                 android:text="בחר מסלול לחיסכון"
                 android:layout_marginLeft="10dp"
                 android:id="@+id/textView"
-                android:layout_gravity="center_horizontal" />
+                android:layout_gravity="center_vertical" />
 
             <Spinner
                 android:layout_width="200dp"
@@ -52,9 +53,9 @@
         </LinearLayout>
 
         <LinearLayout
+            android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:layout_marginBottom="50dp"
             android:layout_margin="20dp"
             android:layoutDirection="rtl">
 
@@ -71,14 +72,62 @@
                 android:layout_height="wrap_content"
                 android:textDirection="rtl"
                 android:id="@+id/targetSpinner"
-                android:layout_gravity="center_horizontal|right"
+                android:layout_gravity="left|center_horizontal"
                 android:spinnerMode="dropdown" />
 
 
         </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="20dp"
+            android:orientation="horizontal"
+            android:layoutDirection="rtl">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="בחר פרק זמן לחסכון"
+                android:layout_gravity="center_vertical" />
+
+            <Spinner
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/timeSpinner"
+                android:textDirection="rtl"
+                android:layoutDirection="rtl"
+                android:layout_gravity="left|center_horizontal"
+                android:spinnerMode="dropdown" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="20dp"
+            android:orientation="horizontal"
+            android:layoutDirection="rtl">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="בחר סכום לחסכון"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center_horizontal" />
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:numeric="decimal"
+                android:id="@+id/amountTxt" />
+
+
+        </LinearLayout>
 
         <Button
+            android:id="@+id/saveButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"

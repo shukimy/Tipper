@@ -35,6 +35,10 @@
             android:name=".TargetActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".BalanceAccountActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

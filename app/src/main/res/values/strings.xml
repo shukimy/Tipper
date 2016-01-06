@@ -17,13 +17,39 @@
     <string name="home_welcome_msg">
                " שלום מור,\n\n"
         "ברוכה הבאה לטיפר! \n"
-״בעוד כמה צעדים, תוכלי להתחיל לחסוך למטרה המשותפת״
+בעוד כמה צעדים, תוכלי להתחיל לחסוך למטרה המשותפת״
         ״הכניסי בבקשה פרטי חשבון בנק הפועלים
     </string>
+    <string name="account_balance_msg">
+
+שלום שמחה,
+מצב חשבון עדכני: 42375.11 ש״ח
+חסכת 1245 ש״ח בחודשהאחרון
+</string>
+        <string name="account_balance_msg2">
+
+על מנת לחסוך amount ש״ח
+        </string>
+        <string name="account_balance_msg3">
+
+בtime חודשים</string>
+            <string name="account_balance_msg4">
+
+עלייך לחסוך (12457-amount/time)ש״ח נוספים בחודש.
+
+            </string>
+            <string name="account_balance_msg5">
+
+אנחנו פה כדי לעזור לך לחסוך.
+
+אנא לחצ/י על המשך כדי לבחור את הקטגוריות בהן את/ה מוכן/ה לחסוך
+לפי רשימת סדר עדיפויות
+            </string>
+
     <string name="action_settings">Settings</string>
-    <string name="connection_dialog_title">Great</string>
-    <string name="connection_dialog_msg">You have connection account.</string>
-    <string name="ok">Ok</string>
+    <string name="connection_dialog_title">ברכות</string>
+    <string name="connection_dialog_msg">החשבון הבנק שלך התחבר בהצלחה</string>
+    <string name="ok">המשך</string>
     <string name="title_activity_target_config">Configuration</string>
 
     <!-- Strings related to Settings -->
