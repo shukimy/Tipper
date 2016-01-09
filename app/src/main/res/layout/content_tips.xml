@@ -35,9 +35,10 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
                 android:orientation="horizontal"
-                android:layout_margin="30dp"
+                android:layout_marginRight="30dp"
+                android:gravity="center_vertical"
                 android:layoutDirection="rtl">
 
                 <ImageButton
@@ -47,7 +48,7 @@
                     android:background="@drawable/tip_icon" />
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="70dp"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="20dp"
                     android:layout_marginLeft="10dp"
@@ -55,13 +56,15 @@
 
                 <ImageView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/hanger" />
             </LinearLayout>
 
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
+                android:gravity="center_vertical"
                 android:orientation="horizontal"
                 android:layout_marginRight="30dp"
                 android:layoutDirection="rtl">
@@ -73,7 +76,7 @@
                     android:background="@drawable/tip_icon" />
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="70dp"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="20dp"
                     android:layout_marginLeft="10dp"
@@ -81,15 +84,17 @@
 
                 <ImageView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/basket" />
             </LinearLayout>
 
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
                 android:orientation="horizontal"
-                android:layout_margin="30dp"
+                android:layout_marginRight="30dp"
+                android:gravity="center_vertical"
                 android:layoutDirection="rtl">
 
                 <ImageButton
@@ -99,7 +104,7 @@
                     android:background="@drawable/tip_icon" />
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="70dp"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="20dp"
                     android:layout_marginLeft="10dp"
@@ -107,14 +112,16 @@
 
                 <ImageView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/beer" />
             </LinearLayout>
 
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
                 android:orientation="horizontal"
+                android:gravity="center_vertical"
                 android:layout_marginRight="30dp"
                 android:layoutDirection="rtl">
 
@@ -125,7 +132,7 @@
                     android:background="@drawable/tip_icon" />
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="70dp"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="20dp"
                     android:layout_marginLeft="10dp"
@@ -133,15 +140,17 @@
 
                 <ImageView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/sound" />
             </LinearLayout>
 
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
                 android:orientation="horizontal"
-                android:layout_margin="30dp"
+                android:layout_marginRight="30dp"
+                android:gravity="center_vertical"
                 android:layoutDirection="rtl">
 
                 <ImageButton
@@ -151,7 +160,7 @@
                     android:background="@drawable/tip_icon" />
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="70dp"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="20dp"
                     android:layout_marginLeft="10dp"
@@ -159,15 +168,17 @@
 
                 <ImageView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/service" />
             </LinearLayout>
 
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
                 android:orientation="horizontal"
                 android:layout_marginRight="30dp"
+                android:gravity="center_vertical"
                 android:layoutDirection="rtl">
 
                 <ImageButton
@@ -177,7 +188,7 @@
                     android:background="@drawable/tip_icon" />
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="70dp"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="20dp"
                     android:layout_marginLeft="10dp"
@@ -185,7 +196,8 @@
 
                 <ImageView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/finance" />
             </LinearLayout>
 
 
